@@ -50,7 +50,7 @@ function Resume() {
 
         <div className='bg-[#dedede] mx-auto'>
           <Document file={pdf}>
-            <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false} scale={width > 900 ? 1.4 : 0.7} />
+            <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false} scale={width > 900 ? 1.4 : 0.6} />
           </Document>
         </div>
 
