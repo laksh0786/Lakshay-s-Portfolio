@@ -38,7 +38,7 @@ function Resume() {
 
         <div className='w-full py-4'>
 
-          <a href={pdf} target='_blank'>
+          <a href={pdf} target='_blank' rel="noreferrer">
             <button className='group mx-auto text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:rounded-lg font-medium transition-all duration-300'> Download Resume
               <span className='group-hover:rotate-90 duration-500'>
                 <HiArrowNarrowRight className='ml-2 mr-2' />
@@ -56,7 +56,7 @@ function Resume() {
 
         <div className='w-full py-4'>
 
-          <a href={pdf} target='_blank'>
+          <a href={pdf} target='_blank' rel="noreferrer">
             <button className='group mx-auto text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:rounded-lg font-medium transition-all duration-300'> Download Resume
               <span className='group-hover:-rotate-90 duration-500'>
                 <HiArrowNarrowRight className='ml-2 mr-2' />

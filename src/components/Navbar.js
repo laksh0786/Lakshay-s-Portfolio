@@ -1,4 +1,4 @@
-import React, { useState , useEffect} from 'react'
+import React, { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -112,25 +112,25 @@ function Navbar() {
                     <ul>
 
                         <li className='w-[150px] h-[60px] text-[1.25rem] px-3 cursor-pointer flex justify-between items-center ml-[-95px] hover:ml-[-8px] duration-700 bg-blue-600 rounded-r-lg' >
-                            <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/lakshay-bansal-044717224/" target="_blank">
+                            <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/lakshay-bansal-044717224/" target='_blank' rel="noreferrer">
                                 LinkedIn<FaLinkedin size={32} />
                             </a>
                         </li>
 
                         <li className='w-[150px] h-[60px] text-[1.25rem] px-3 cursor-pointer flex justify-between items-center ml-[-95px] hover:ml-[-8px] duration-700 bg-[#333333] rounded-r-lg' >
-                            <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/laksh0786" target="_blank">
+                            <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/laksh0786" target='_blank' rel="noreferrer">
                                 Github<FaGithub size={32} />
                             </a>
                         </li>
 
                         <li className='w-[150px] h-[60px] text-[1.25rem] px-3 cursor-pointer flex justify-between items-center ml-[-95px] hover:ml-[-8px] duration-700 bg-[#72c1b0] rounded-r-lg' >
-                            <a className='flex justify-between items-center w-full text-gray-300' href="mailto:lakshay.bansal198@gmail.com" target="_blank">
+                            <a className='flex justify-between items-center w-full text-gray-300' href="mailto:lakshay.bansal198@gmail.com" target='_blank' rel="noreferrer">
                                 Email<HiOutlineMail size={32} />
                             </a>
                         </li>
 
                         <li className='w-[150px] h-[60px] text-[1.25rem] px-3 cursor-pointer flex justify-between items-center ml-[-95px] hover:ml-[-8px] duration-700 bg-[#565f69] rounded-r-lg' >
-                            <a className='flex justify-between items-center w-full text-gray-300' href="/resume" target="_blank">
+                            <a className='flex justify-between items-center w-full text-gray-300' href="/resume" target='_blank' rel="noreferrer">
                                 Resume<BsFillPersonLinesFill size={32} />
                             </a>
                         </li>

@@ -49,6 +49,17 @@
     @apply duration-500;
   }
 
+  .contact-ip{
+    @apply my-4 ;
+    @apply p-3 ;
+    @apply bg-[#ccd6f6] ;
+    @apply text-gray-800 ;
+    @apply rounded-lg ;
+    @apply placeholder-slate-600 ;
+    @apply focus:outline-none ;
+    @apply shadow-md  focus:shadow-[#6fc2b0];
+  }
+
 }
 
 /*Scrollbar   */

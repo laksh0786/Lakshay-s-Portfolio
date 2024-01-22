@@ -1,10 +1,12 @@
 import React from 'react'
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiGeeksforgeeks } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
+
 
 function Footer() {
   return (
@@ -18,10 +20,11 @@ function Footer() {
       </div>
 
       <div className='w-full mt-10 flex justify-center gap-14'>
-        <a className='footer-link border ' href=""> <AiFillGithub className='text-[#329d86] p-2' size={45} />     </a>
-        <a className='footer-link' href=""> <AiOutlineTwitter className='text-[#329d86] p-2' size={45} /> </a>
-        <a className='footer-link' href=""> <FaLinkedinIn className='text-[#329d86] p-2' size={45} />     </a>
-        <a className='footer-link' href=""> <AiFillInstagram className='text-[#329d86] p-2' size={45} />  </a>
+        <a className='footer-link border ' href="https://github.com/laksh0786" target='_blank' rel="noreferrer"> <AiFillGithub className='text-[#329d86] p-2' size={45} />     </a>
+        <a className='footer-link' href="https://www.linkedin.com/in/lakshay-bansal-044717224/" target='_blank' rel="noreferrer"> <FaLinkedinIn className='text-[#329d86] p-2' size={45} />     </a>
+        <a className='footer-link' href="https://www.instagram.com/lakshay1973/" target='_blank' rel="noreferrer"> <AiFillInstagram className='text-[#329d86] p-2' size={45} />  </a>
+        <a className='footer-link' href="https://auth.geeksforgeeks.org/user/lakshaybansal198" target='_blank' rel="noreferrer"> <SiGeeksforgeeks className='text-[#329d86] p-2' size={45} />  </a>
+        <a className='footer-link' href="https://leetcode.com/lakshay0786/" target='_blank' rel="noreferrer"> <SiLeetcode className='text-[#329d86] p-2' size={45} />  </a>
       </div>
 
 

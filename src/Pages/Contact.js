@@ -14,13 +14,13 @@ function Contact() {
 
         </div>
 
-        <input className='my-4 p-2 bg-[#ccd6f6] text-gray-800' type="text" placeholder='Name' name="name" />
+        <input className='contact-ip' type="text" placeholder='Name' name="name" />
         
-        <input className='my-4 p-2 bg-[#ccd6f6] text-gray-800' type="email" placeholder='Email' name="email" />
+        <input className='contact-ip' type="email" placeholder='Email' name="email" />
 
-        <textarea className='bg-[#ccd6f6] mt-4 p-2 text-gray-800' placeholder='Message' cols='30' rows='10'></textarea>
+        <textarea className='contact-ip' placeholder='Message' cols='30' rows='10'></textarea>
 
-        <button className='text-white border-2  font-medium hover:bg-pink-600 hover:rounded-md hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center duration-500'>Let's Collaborate</button>
+        <button className='text-white border-2  font-medium rounded-md  hover:bg-pink-600 hover:rounded-md hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center duration-500'>Let's Collaborate</button>
 
       </form>
 

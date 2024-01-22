@@ -23,11 +23,11 @@ function About() {
                         <p>Hi. I'm Lakshay Bansal, nice to meet you. Please take a look around.</p>
                     </div>
                     <div className="text-[18px]">
-                        <p>I am passionate about building excellent software that improves
-                            the lives of those around me. I specialize in creating software
-                            for clients ranging from individuals and small-businesses all the
-                            way to large enterprise corporations. What would you do if you had
-                            a software expert available at your fingertips?</p>
+                        <p>
+                            I am currently pursuing my Bachelors in Computer Science & Engg. from GZSCCET , MRSPTU Bti.
+                            I am currently exploring different Web technologies and working on my skills by building projects  and also working on my Data Structures and Algorithms.
+                            Currently I am looking for an internship in the field of Web Development.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@ function About() {
             <Skills />
 
             {/* Tools */}
-            <Tools/>
+            <Tools />
 
         </div>
 
