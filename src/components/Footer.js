@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div>
 
-      <div className='mt-16 w-full flex flex-col gap-3 text-gray-200 items-center'>
+      <div className='mt-16 w-full flex flex-col gap-3 text-gray-200 items-center relative bottom-0'>
 
         <p className='text-4xl tracking-wider font-semibold'>FIND ME ON</p>
         <p className='text-sm font-medium tracking-tight'>Feel free to <span className='text-[#72c1b0]'>connect</span> with me</p>
