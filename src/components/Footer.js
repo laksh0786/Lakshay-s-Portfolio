@@ -19,7 +19,7 @@ function Footer() {
 
       </div>
 
-      <div className='w-full mt-10 flex justify-center gap-14'>
+      <div className='w-full mt-10 flex justify-center flex-wrap gap-14'>
         <a className='footer-link border ' href="https://github.com/laksh0786" target='_blank' rel="noreferrer"> <AiFillGithub className='text-[#329d86] p-2' size={45} />     </a>
         <a className='footer-link' href="https://www.linkedin.com/in/lakshay-bansal-044717224/" target='_blank' rel="noreferrer"> <FaLinkedinIn className='text-[#329d86] p-2' size={45} />     </a>
         <a className='footer-link' href="https://www.instagram.com/lakshay1973/" target='_blank' rel="noreferrer"> <AiFillInstagram className='text-[#329d86] p-2' size={45} />  </a>
