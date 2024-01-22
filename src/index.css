@@ -45,7 +45,8 @@
     @apply hover:shadow-[#329d86];
     @apply hover:scale-110;
     @apply hover:border;
-    @apply border-[#329d86]
+    @apply border-[#329d86];
+    @apply duration-500;
   }
 
 }

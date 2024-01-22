@@ -4,10 +4,7 @@ import pdf from './../assets/Lakshay_Resume.pdf'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString();
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 
 function Resume() {
@@ -28,7 +25,7 @@ function Resume() {
       window.removeEventListener('resize', handleResize);
     }
 
-  } , []);
+  }, []);
 
   return (
     <div className=' text-white pt-20 flex flex-col justify-center'>

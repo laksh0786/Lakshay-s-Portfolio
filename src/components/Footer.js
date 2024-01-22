@@ -18,7 +18,7 @@ function Footer() {
       </div>
 
       <div className='w-full mt-10 flex justify-center gap-14'>
-        <a className='footer-link' href=""> <AiFillGithub className='text-[#329d86] p-2' size={45} />     </a>
+        <a className='footer-link border ' href=""> <AiFillGithub className='text-[#329d86] p-2' size={45} />     </a>
         <a className='footer-link' href=""> <AiOutlineTwitter className='text-[#329d86] p-2' size={45} /> </a>
         <a className='footer-link' href=""> <FaLinkedinIn className='text-[#329d86] p-2' size={45} />     </a>
         <a className='footer-link' href=""> <AiFillInstagram className='text-[#329d86] p-2' size={45} />  </a>
