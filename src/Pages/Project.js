@@ -4,7 +4,7 @@ import projectData from '../projectData';
 function Project() {
   console.log(projectData)
   return (
-    <div className='w-full h-screen mt-20 text-gray-300 bg-[#0a192f]'>
+    <div className='w-full mt-20 mb-10 text-gray-300 bg-[#0a192f]'>
 
       <div className='max-w-[1000px] lg:pl-20 mx-auto p-4 flex flex-col w-full h-full'>
 

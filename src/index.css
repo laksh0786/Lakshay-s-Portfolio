@@ -38,6 +38,16 @@
     @apply duration-300
   }
 
+  .footer-link{
+    @apply bg-white;
+    @apply rounded-full;
+    @apply hover:shadow-md;
+    @apply hover:shadow-[#329d86];
+    @apply hover:scale-110;
+    @apply hover:border;
+    @apply border-[#329d86]
+  }
+
 }
 
 /*Scrollbar   */
