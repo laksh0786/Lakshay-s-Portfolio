@@ -7,7 +7,7 @@ import Introduction from '../components/Introduction';
 
 function Home() {
   return (
-    <div className="w-full h-screen mt-8 bg-[#0a192f] text-white ">
+    <div className="w-full mt-8 bg-[#0a192f] text-white ">
       {/* Container */}
       <div className='pt-28 sm:pt-32 flex justify-around lg:justify-center gap-6 lg:gap-14 mx-auto flex-wrap'>
 
