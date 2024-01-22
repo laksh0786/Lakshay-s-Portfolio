@@ -30,7 +30,7 @@ function Footer() {
 
       <div className=' mt-9 px-16 py-3 flex justify-center w-full bg-black text-gray-200'>
 
-        <p>Copyright &copy; 2024 by Lakshay Bansal  </p>
+        <p className='text-sm  md:text-[16px]'>Copyright &copy; 2024 by Lakshay Bansal  </p>
 
       </div>
 
