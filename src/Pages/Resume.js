@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Document, pdfjs, Page } from 'react-pdf';
 import pdf from './../assets/Lakshay_Resume.pdf'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import Particle from '../components/Particle';
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -29,6 +30,8 @@ function Resume() {
 
   return (
     <div className=' text-white pt-20 flex flex-col justify-center'>
+
+      <Particle />
 
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <p className='inline text-4xl font-bold border-b-4 border-pink-600'>Resume</p>

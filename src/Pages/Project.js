@@ -1,10 +1,13 @@
 import React from 'react'
 import projectData from '../projectData';
+import Particle from '../components/Particle';
 
 function Project() {
   console.log(projectData)
   return (
     <div className='w-full mt-20 mb-10 text-gray-300 bg-[#0a192f]'>
+
+      <Particle />
 
       <div className='max-w-[1000px] lg:pl-20 mx-auto p-4 flex flex-col w-full h-full'>
 
@@ -23,8 +26,8 @@ function Project() {
 
                 //Glass hover animation
                 <div className="group flex justify-center overflow-hidden  items-center relative cursor-pointer hover:scale-110 hover:shadow-[#6fc2b0] hover:shadow-lg duration-500 ">
-                   
-                   {/* Card */}
+
+                  {/* Card */}
                   <div className="max-w-[300px] sm:max-w-full flex flex-col overflow-hidden shadow-md border-2  rounded-md border-gray-600 shadow-pink-100 bg-slate-50" key={index}>
 
                     {/* Project Image */}

@@ -4,10 +4,22 @@ import hero from '../assets/home-page.png'
 import lakshay from '../assets/lakshay-ppic.png'
 import Typewriter from "typewriter-effect";
 import Introduction from '../components/Introduction';
+import Particle from '../components/Particle';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+
+  const navigate = useNavigate();
+
+  function clickHandler(){
+    navigate('/projects')
+  }
+
   return (
     <div className="w-full mt-8 bg-[#0a192f] text-white ">
+      
+      <Particle/>
+      
       {/* Container */}
       <div className='pt-28 sm:pt-32 flex justify-around lg:justify-center gap-6 lg:gap-14 mx-auto flex-wrap'>
 
@@ -48,7 +60,7 @@ function Home() {
           </p>
 
           <div>
-            <button className='group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:rounded-lg font-medium transition-all duration-300'> View Work
+            <button className='group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:rounded-lg font-medium transition-all duration-300' onClick={clickHandler}> View Work
               <span className='group-hover:rotate-180 duration-500'>
                 <HiArrowNarrowRight className='ml-2 mr-2' />
               </span>

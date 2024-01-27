@@ -3,6 +3,7 @@ import RoutingProject from "./assets/Project/RoutingProject.jpeg";
 import BlogWebApp from "./assets/Project/BlogWebApp.jpeg";
 import RandomMeme from "./assets/Project/RandomMeme.jpeg";
 import CourseSel from "./assets/Project/CourseSel.jpeg";
+import Todo from "./assets/Project/Todo.jpg";
 
 
 
@@ -41,6 +42,14 @@ const projectData = [
         demoLink : "https://react-router-project-hazel.vercel.app/",
         githubLink : "https://github.com/laksh0786/React-Router-Project"
     },
+
+    {
+        name:"To Do List",
+        image:Todo,
+        description:"In this project I have used different React hooks and created a Todo list App .",
+        demoLink : "https://to-do-app-using-react-js-nine.vercel.app/", 
+        githubLink : "https://github.com/laksh0786/To-Do-App-Using-ReactJS"
+    },
     
     {
         name:"Course Selector",
@@ -49,6 +58,7 @@ const projectData = [
         demoLink : "https://github.com/laksh0786/Course-Selector", //https://course-selector.vercel.app/
         githubLink : "https://github.com/laksh0786/Course-Selector"
     },
+    
 
 
 ]
