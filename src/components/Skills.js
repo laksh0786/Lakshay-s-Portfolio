@@ -7,6 +7,7 @@ import node from '../assets/node.png'
 import mongo from '../assets/mongo.png'
 import tailwindcss from '../assets/tailwind.png'
 import git from '../assets/github.png'
+import { SiMysql, SiCplusplus, SiAngularjs, SiBootstrap, SiRedux } from "react-icons/si"
 
 
 
@@ -21,6 +22,12 @@ function Skills() {
       </div>
 
       <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-10 text-center py-8 px-4'>
+
+
+        <div className='shadow-md shadow-[#d5e0eb] hover:scale-110 duration-500 hover:shadow-pink-400 hover:shadow-lg'>
+          <SiCplusplus className='mt-2 mx-auto text-blue-200' size={80} />
+          <p className='my-4'>C / C++</p>
+        </div>
 
         <div className='shadow-md shadow-[#d5e0eb] hover:scale-110 duration-500 hover:shadow-[#6fc2b0] hover:shadow-lg'>
           <img src={html} alt="html" className='w-20 mt-2 mx-auto' />
@@ -42,9 +49,24 @@ function Skills() {
           <p className='my-4'>Tailwind CSS</p>
         </div>
 
+        <div className='shadow-md shadow-[#d5e0eb] hover:scale-110 duration-500 hover:shadow-pink-400 hover:shadow-lg'>
+          <SiBootstrap className='mt-2 mx-auto text-purple-500' size={80} />
+          <p className='my-4'>Bootstrap</p>
+        </div>
+
         <div className='shadow-md shadow-[#d5e0eb] hover:scale-110 duration-500 hover:shadow-[#6fc2b0] hover:shadow-lg'>
           <img src={react} alt="react" className='w-20 mt-2 mx-auto' />
           <p className='my-4'>ReactJS</p>
+        </div>
+
+        <div className='shadow-md shadow-[#d5e0eb] hover:scale-110 duration-500 hover:shadow-pink-400 hover:shadow-lg'>
+          <SiRedux className='mt-2 mx-auto text-purple-400' size={80} />
+          <p className='my-4'>Redux</p>
+        </div>
+
+        <div className='shadow-md shadow-[#d5e0eb] hover:scale-110 duration-500 hover:shadow-pink-400 hover:shadow-lg'>
+          <SiAngularjs className='mt-2 mx-auto text-red-500' size={80} />
+          <p className='my-4'>AngularJS</p>
         </div>
 
         <div className='shadow-md shadow-[#d5e0eb] hover:scale-110 duration-500 hover:shadow-pink-400 hover:shadow-lg'>
@@ -55,6 +77,11 @@ function Skills() {
         <div className='shadow-md shadow-[#d5e0eb] hover:scale-110 duration-500 hover:shadow-[#6fc2b0] hover:shadow-lg'>
           <img src={mongo} alt="mongo" className='w-20 mt-2 mx-auto' />
           <p className='my-4'>MongoDB</p>
+        </div>
+
+        <div className='shadow-md shadow-[#d5e0eb] hover:scale-110 duration-500 hover:shadow-pink-400 hover:shadow-lg'>
+          <SiMysql className='mt-2 mx-auto text-blue-300' size={80} />
+          <p className='my-4'>MySql</p>
         </div>
 
         <div className='shadow-md shadow-[#d5e0eb] hover:scale-110 duration-500 hover:shadow-pink-400 hover:shadow-lg'>
