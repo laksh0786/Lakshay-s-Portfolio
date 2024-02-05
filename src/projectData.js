@@ -4,6 +4,8 @@ import BlogWebApp from "./assets/Project/BlogWebApp.jpeg";
 import RandomMeme from "./assets/Project/RandomMeme.jpeg";
 import CourseSel from "./assets/Project/CourseSel.jpeg";
 import Todo from "./assets/Project/Todo.jpg";
+import passwordGenerator from "./assets/Project/password-generator.jpg"
+import tictactoe from "./assets/Project/tictactoe.jpg"
 
 
 
@@ -57,6 +59,22 @@ const projectData = [
         description:"In this project I have used React useEffect hook , and react libraries and tailwindcss .",
         demoLink : "https://course-selector.vercel.app/",
         githubLink : "https://github.com/laksh0786/Course-Selector"
+    },
+    
+    {
+        name:"Password Generator",
+        image:passwordGenerator,
+        description:"It is a random password gebnerator where I have used concepts of JS ",
+        demoLink : "https://laksh0786.github.io/Random-Password-Generator/",
+        githubLink : "https://github.com/laksh0786/Random-Password-Generator"
+    },
+    
+    {
+        name:"Tic Tac Toe",
+        image:tictactoe,
+        description:"It is a mini project in js where I have created Tic Tac Toe game but not mobile responsive. ",
+        demoLink : "https://laksh0786.github.io/Tic-Tac-Toe/",
+        githubLink : "https://github.com/laksh0786/Tic-Tac-Toe"
     },
     
 
