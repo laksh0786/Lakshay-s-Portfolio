@@ -21,7 +21,7 @@ const projectData = [
         name:"Blog Web App",
         image:BlogWebApp,
         description:"In this practice project I have used react-routing , context-api , fetching data from api and more.  ",
-        demoLink : "https://github.com/laksh0786/Blog-App-Extended",//https://blogs-website-1u2c.vercel.app/
+        demoLink : "https://blogs-website-1u2c.vercel.app/",
         githubLink : "https://github.com/laksh0786/Blog-App-Extended"
     },
 
@@ -55,7 +55,7 @@ const projectData = [
         name:"Course Selector",
         image:CourseSel,
         description:"In this project I have used React useEffect hook , and react libraries and tailwindcss .",
-        demoLink : "https://github.com/laksh0786/Course-Selector", //https://course-selector.vercel.app/
+        demoLink : "https://course-selector.vercel.app/",
         githubLink : "https://github.com/laksh0786/Course-Selector"
     },
     
