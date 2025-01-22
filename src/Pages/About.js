@@ -26,10 +26,8 @@ function About() {
                         <p>Hi. I'm Lakshay Bansal, nice to meet you. Please take a look around.</p>
                     </div>
                     <div className="text-[18px]">
-                        <p>
-                            I am currently pursuing my Bachelors in Computer Science & Engg. from GZSCCET , MRSPTU Bti.
-                            I am currently exploring different Web technologies and working on my skills by building projects  and also working on my Data Structures and Algorithms.
-                            Currently I am looking for an internship in the field of Web Development.
+                        <p className="text-justify">
+                            I am currently pursuing my Bachelor's degree in Computer Science & Engineering from GZSCCET, MRSPTU Bti. I am actively exploring different web technologies and working on improving my skills by building projects and studying Data Structures and Algorithms. I have completed an internship as an IT intern at Trident Group India, where I received appreciation for my work. I am now seeking an internship opportunity in Web Development.
                         </p>
                     </div>
                 </div>
